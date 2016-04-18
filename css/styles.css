@@ -1,5 +1,36 @@
-body {
+section {
+	width: 800px;
+	display: none;
 
-	background-color: #c0ffee;
+}
 
+#section-one {
+	background-color: yellow;
+	display: block;
+}
+
+#section-two {
+	background-color: orange;
+}
+
+#section-three {
+	background-color: purple;
+}
+
+#section-four {
+	background-color: green;
+}
+
+#section-five {
+	background-color: pink;
+}
+
+main {
+	width: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+
+ul li {
+	display: inline-block;
 }
